@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'index.apps.IndexConfig',
     'memory.apps.MemoryConfig',
     'rest_framework',
+    'django_filters',
 ]
 
 MIDDLEWARE = [

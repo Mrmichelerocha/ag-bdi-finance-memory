@@ -8,6 +8,7 @@ router = routers.DefaultRouter()
 router.register('min', min_view_set, basename='min')
 router.register('max', max_view_set, basename='max')
 router.register('wallet', wallet_view_set, basename='wallet')
+router.register('transaction', transaction_view_set, basename='transaction')
 
 urlpatterns = [
     path('', include(router.urls)),
